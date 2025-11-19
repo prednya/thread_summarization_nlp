@@ -1,0 +1,30 @@
+{
+  "cs_sum": {
+    "rougeL": 0.3781862617520918,
+    "bertscore_precision": 0.8191611170768738,
+    "bertscore_recall": 0.8042186498641968,
+    "bertscore_f1": 0.8109079003334045,
+    "code_mixing_coverage": 0.4245517025729125
+  },
+  "croco": {
+    "rougeL": 0.3044673435988684,
+    "bertscore_precision": 0.7304617166519165,
+    "bertscore_recall": 0.6794406771659851,
+    "bertscore_f1": 0.7036750316619873,
+    "code_mixing_coverage": 0.16741620741876645
+  },
+  "dialogsum": {
+    "rougeL": 0.40824882668224416,
+    "bertscore_precision": 0.816680908203125,
+    "bertscore_recall": 0.8306223154067993,
+    "bertscore_f1": 0.8231810331344604,
+    "code_mixing_coverage": 0.5848867356539567
+  },
+  "all": {
+    "rougeL": 0.32553923475976243,
+    "bertscore_precision": 0.7504286170005798,
+    "bertscore_recall": 0.7116414904594421,
+    "bertscore_f1": 0.729914665222168,
+    "code_mixing_coverage": 0.24808216252247406
+  }
+}

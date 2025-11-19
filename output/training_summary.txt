@@ -1,0 +1,44 @@
+
+Multi-Dataset mBART Training - Summary Report
+
+Model: facebook/mbart-large-50-many-to-many-mmt
+
+Training Data:
+  Total examples: 28,033
+  - CS-Sum (Chinese-English): 2,584
+  - CroCoSum (Chinese-English): 12,989
+  - DialogSum (English): 12,460
+
+Training Configuration:
+  Epochs: 3
+  Batch size per device: 4
+  Effective batch size: 16
+  Learning rate: 5e-05
+  Training time: 1.52 hours
+
+Results:
+
+CS-Sum (Chinese-English Code-Mixed):
+  ROUGE-L: 0.3782
+  BERTScore F1: 0.8109
+  Code-Mixing Coverage: 0.4246
+
+CroCoSum (Chinese-English Code-Mixed):
+  ROUGE-L: 0.3045
+  BERTScore F1: 0.7037
+  Code-Mixing Coverage: 0.1674
+
+DialogSum (English Monolingual):
+  ROUGE-L: 0.4082
+  BERTScore F1: 0.8232
+  Code-Mixing Coverage: 0.5849
+
+Combined (All Test Sets):
+  ROUGE-L: 0.3255
+  BERTScore F1: 0.7299
+  Code-Mixing Coverage: 0.2481
+
+Conclusions:
+- The model successfully learns from multiple code-mixed datasets
+- Cross-lingual transfer enables generalization across language pairs
+- Performance maintained on monolingual English data

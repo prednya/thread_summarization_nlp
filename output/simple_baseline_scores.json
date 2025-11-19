@@ -1,0 +1,7 @@
+{
+  "rougeL": 0.17261735583640225,
+  "bertscore_precision": 0.6050658822059631,
+  "bertscore_recall": 0.6556805372238159,
+  "bertscore_f1": 0.6286891102790833,
+  "code_mixing_coverage": 0.6983189002463372
+}
